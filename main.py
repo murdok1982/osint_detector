@@ -1,4 +1,5 @@
 import asyncio
+import hispan_shield_guardian
 from telegram_client import client, start_listening
 from analyzer import analyze_with_gpt
 from database import save_message
